@@ -1,0 +1,50 @@
+.main-heading{
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+    display: block;
+}
+.HomePage{
+    height: 980px;
+    background: url('../image/pexels-lukas-349610.jpg');
+    background-size: cover;
+    background-position: left;
+}
+.card-body{
+    box-shadow: 0 5px 5px -5px #333;
+    padding: 0%;
+    background-color: whitesmoke;
+    height: 200px;
+    position: relative;
+}
+.card-img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.item-title{
+    font-size: 28px;
+    text-align: center;
+}
+.item-detail{
+    font-size: 16px;
+    justify-content: left;
+    margin-left: 5%;
+
+}
+.click-btn{
+    cursor: pointer;
+    background-color: #ff4500;
+    color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    position: absolute;
+    top:75%;
+    right: 5%;
+    border: none;
+}
